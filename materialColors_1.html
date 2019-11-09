@@ -1,0 +1,679 @@
+<!DOCTYPE HTML>
+<!--
+ *  - - - - - - - - - - - - - - - - - - 
+ *  Credits:
+ *
+ *  Original color palette by
+ *  https://www.google.com/design/spec/style/color.html
+ *
+ *  - - - - - - - - - - - - - - - - - -
+-->
+<html>
+
+<head>
+    <title>Material Colors</title>
+</head>
+<style>
+
+ td:active{ box-shadow: 0px 0px 10px #000000;}
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    h2{
+        text-align: center;
+        font-family: "Courier New",Courier,monospace;
+        font-size: 32px;
+        letter-spacing: .2em;
+    }
+    p{
+        text-align: center;
+        font-family: monospace;
+    }
+    .main{
+        min-height: 500px;
+        min-width: 500px;
+        border: 5px solid;
+        }
+    table{border-collapse: collapse;
+    margin-right: -1px;}
+    td{
+        height: 100px;
+        width: 100px;
+    }
+    .red { background-color: #f44336; }
+.red-50 { background-color: #ffebee; }
+.red-100 { background-color: #ffcdd2; }
+.red-200 { background-color: #ef9a9a; }
+.red-300 { background-color: #e57373; }
+.red-400 { background-color: #ef5350; }
+.red-500 { background-color: #f44336; }
+.red-600 { background-color: #e53935; }
+.red-700 { background-color: #d32f2f; }
+.red-800 { background-color: #c62828; }
+.red-900 { background-color: #b71c1c; }
+.red-a100 { background-color: #ff8a80; }
+.red-a200 { background-color: #ff5252; }
+.red-a400 { background-color: #ff1744; }
+.red-a700 { background-color: #d50000; }
+    
+.pink { background-color: #e91e63; }
+.pink-50 { background-color: #fce4ec; }
+.pink-100 { background-color: #f8bbd0; }
+.pink-200 { background-color: #f48fb1; }
+.pink-300 { background-color: #f06292; }
+.pink-400 { background-color: #ec407a; }
+.pink-500 { background-color: #e91e63; }
+.pink-600 { background-color: #d81b60; }
+.pink-700 { background-color: #c2185b; }
+.pink-800 { background-color: #ad1457; }
+.pink-900 { background-color: #880e4f; }
+.pink-a100 { background-color: #ff80ab; }
+.pink-a200 { background-color: #ff4081; }
+.pink-a400 { background-color: #f50057; }
+.pink-a700 { background-color: #c51162; }
+/* Purple */
+.purple { background-color: #9c27b0; }
+.purple-50 { background-color: #f3e5f5; }
+.purple-100 { background-color: #e1bee7; }
+.purple-200 { background-color: #ce93d8; }
+.purple-300 { background-color: #ba68c8; }
+.purple-400 { background-color: #ab47bc; }
+.purple-500 { background-color: #9c27b0; }
+.purple-600 { background-color: #8e24aa; }
+.purple-700 { background-color: #7b1fa2; }
+.purple-800 { background-color: #6a1b9a; }
+.purple-900 { background-color: #4a148c; }
+.purple-a100 { background-color: #ea80fc; }
+.purple-a200 { background-color: #e040fb; }
+.purple-a400 { background-color: #d500f9; }
+.purple-a700 { background-color: #aa00ff; }
+/* Deep Purple */
+.deep-purple { background-color: #673ab7; }
+.deep-purple-50 { background-color: #ede7f6; }
+.deep-purple-100 { background-color: #d1c4e9; }
+.deep-purple-200 { background-color: #b39ddb; }
+.deep-purple-300 { background-color: #9575cd; }
+.deep-purple-400 { background-color: #7e57c2; }
+.deep-purple-500 { background-color: #673ab7; }
+.deep-purple-600 { background-color: #5e35b1; }
+.deep-purple-700 { background-color: #512da8; }
+.deep-purple-800 { background-color: #4527a0; }
+.deep-purple-900 { background-color: #311b92; }
+.deep-purple-a100 { background-color: #b388ff; }
+.deep-purple-a200 { background-color: #7c4dff; }
+.deep-purple-a400 { background-color: #651fff; }
+.deep-purple-a700 { background-color: #6200ea; }
+/* Indigo */
+.indigo { background-color: #3f51b5; }
+.indigo-50 { background-color: #e8eaf6; }
+.indigo-100 { background-color: #c5cae9; }
+.indigo-200 { background-color: #9fa8da; }
+.indigo-300 { background-color: #7986cb; }
+.indigo-400 { background-color: #5c6bc0; }
+.indigo-500 { background-color: #3f51b5; }
+.indigo-600 { background-color: #3949ab; }
+.indigo-700 { background-color: #303f9f; }
+.indigo-800 { background-color: #283593; }
+.indigo-900 { background-color: #1a237e; }
+.indigo-a100 { background-color: #8c9eff; }
+.indigo-a200 { background-color: #536dfe; }
+.indigo-a400 { background-color: #3d5afe; }
+.indigo-a700 { background-color: #304ffe; }
+/* Blue */
+.blue { background-color: #2196f3; }
+.blue-50 { background-color: #e3f2fd; }
+.blue-100 { background-color: #bbdefb; }
+.blue-200 { background-color: #90caf9; }
+.blue-300 { background-color: #64b5f6; }
+.blue-400 { background-color: #42a5f5; }
+.blue-500 { background-color: #2196f3; }
+.blue-600 { background-color: #1e88e5; }
+.blue-700 { background-color: #1976d2; }
+.blue-800 { background-color: #1565c0; }
+.blue-900 { background-color: #0d47a1; }
+.blue-a100 { background-color: #82b1ff; }
+.blue-a200 { background-color: #448aff; }
+.blue-a400 { background-color: #2979ff; }
+.blue-a700 { background-color: #2962ff; }
+/* Light Blue */
+.light-blue { background-color: #03a9f4; }
+.light-blue-50 { background-color: #e1f5fe; }
+.light-blue-100 { background-color: #b3e5fc; }
+.light-blue-200 { background-color: #81d4fa; }
+.light-blue-300 { background-color: #4fc3f7; }
+.light-blue-400 { background-color: #29b6f6; }
+.light-blue-500 { background-color: #03a9f4; }
+.light-blue-600 { background-color: #039be5; }
+.light-blue-700 { background-color: #0288d1; }
+.light-blue-800 { background-color: #0277bd; }
+.light-blue-900 { background-color: #01579b; }
+.light-blue-a100 { background-color: #80d8ff; }
+.light-blue-a200 { background-color: #40c4ff; }
+.light-blue-a400 { background-color: #00b0ff; }
+.light-blue-a700 { background-color: #0091ea; }
+/* Cyan */
+.cyan { background-color: #00bcd4; }
+.cyan-50 { background-color: #e0f7fa; }
+.cyan-100 { background-color: #b2ebf2; }
+.cyan-200 { background-color: #80deea; }
+.cyan-300 { background-color: #4dd0e1; }
+.cyan-400 { background-color: #26c6da; }
+.cyan-500 { background-color: #00bcd4; }
+.cyan-600 { background-color: #00acc1; }
+.cyan-700 { background-color: #0097a7; }
+.cyan-800 { background-color: #00838f; }
+.cyan-900 { background-color: #006064; }
+.cyan-a100 { background-color: #84ffff; }
+.cyan-a200 { background-color: #18ffff; }
+.cyan-a400 { background-color: #00e5ff; }
+.cyan-a700 { background-color: #00b8d4; }
+/* Teal */
+.teal { background-color: #009688; }
+.teal-50 { background-color: #e0f2f1; }
+.teal-100 { background-color: #b2dfdb; }
+.teal-200 { background-color: #80cbc4; }
+.teal-300 { background-color: #4db6ac; }
+.teal-400 { background-color: #26a69a; }
+.teal-500 { background-color: #009688; }
+.teal-600 { background-color: #00897b; }
+.teal-700 { background-color: #00796b; }
+.teal-800 { background-color: #00695c; }
+.teal-900 { background-color: #004d40; }
+.teal-a100 { background-color: #a7ffeb; }
+.teal-a200 { background-color: #64ffda; }
+.teal-a400 { background-color: #1de9b6; }
+.teal-a700 { background-color: #00bfa5; }
+/* Blue Grey */
+.blue-grey { background-color: #607d8b; }
+.blue-grey-50 { background-color: #eceff1; }
+.blue-grey-100 { background-color: #cfd8dc; }
+.blue-grey-200 { background-color: #b0bec5; }
+.blue-grey-300 { background-color: #90a4ae; }
+.blue-grey-400 { background-color: #78909c; }
+.blue-grey-500 { background-color: #607d8b; }
+.blue-grey-600 { background-color: #546e7a; }
+.blue-grey-700 { background-color: #455a64; }
+.blue-grey-800 { background-color: #37474f; }
+.blue-grey-900 { background-color: #263238; }
+/* Grey */
+.grey { background-color: #9e9e9e; }
+.grey-50 { background-color: #fafafa; }
+.grey-100 { background-color: #f5f5f5; }
+.grey-200 { background-color: #eeeeee; }
+.grey-300 { background-color: #e0e0e0; }
+.grey-400 { background-color: #bdbdbd; }
+.grey-500 { background-color: #9e9e9e; }
+.grey-600 { background-color: #757575; }
+.grey-700 { background-color: #616161; }
+.grey-800 { background-color: #424242; }
+.grey-900 { background-color: #212121; }
+/* Brown */
+.brown { background-color: #795548; }
+.brown-50 { background-color: #efebe9; }
+.brown-100 { background-color: #d7ccc8; }
+.brown-200 { background-color: #bcaaa4; }
+.brown-300 { background-color: #a1887f; }
+.brown-400 { background-color: #8d6e63; }
+.brown-500 { background-color: #795548; }
+.brown-600 { background-color: #6d4c41; }
+.brown-700 { background-color: #5d4037; }
+.brown-800 { background-color: #4e342e; }
+.brown-900 { background-color: #3e2723; }
+/* Deep Orange */
+.deep-orange { background-color: #ff5722; }
+.deep-orange-50 { background-color: #fbe9e7; }
+.deep-orange-100 { background-color: #ffccbc; }
+.deep-orange-200 { background-color: #ffab91; }
+.deep-orange-300 { background-color: #ff8a65; }
+.deep-orange-400 { background-color: #ff7043; }
+.deep-orange-500 { background-color: #ff5722; }
+.deep-orange-600 { background-color: #f4511e; }
+.deep-orange-700 { background-color: #e64a19; }
+.deep-orange-800 { background-color: #d84315; }
+.deep-orange-900 { background-color: #bf360c; }
+.deep-orange-a100 { background-color: #ff9e80; }
+.deep-orange-a200 { background-color: #ff6e40; }
+.deep-orange-a400 { background-color: #ff3d00; }
+.deep-orange-a700 { background-color: #dd2c00; }
+/* Orange */
+.orange { background-color: #ff9800; }
+.orange-50 { background-color: #fff3e0; }
+.orange-100 { background-color: #ffe0b2; }
+.orange-200 { background-color: #ffcc80; }
+.orange-300 { background-color: #ffb74d; }
+.orange-400 { background-color: #ffa726; }
+.orange-500 { background-color: #ff9800; }
+.orange-600 { background-color: #fb8c00; }
+.orange-700 { background-color: #f57c00; }
+.orange-800 { background-color: #ef6c00; }
+.orange-900 { background-color: #e65100; }
+.orange-a100 { background-color: #ffd180; }
+.orange-a200 { background-color: #ffab40; }
+.orange-a400 { background-color: #ff9100; }
+.orange-a700 { background-color: #ff6d00; }
+/* Amber */
+.amber { background-color: #ffc107; }
+.amber-50 { background-color: #fff8e1; }
+.amber-100 { background-color: #ffecb3; }
+.amber-200 { background-color: #ffe082; }
+.amber-300 { background-color: #ffd54f; }
+.amber-400 { background-color: #ffca28; }
+.amber-500 { background-color: #ffc107; }
+.amber-600 { background-color: #ffb300; }
+.amber-700 { background-color: #ffa000; }
+.amber-800 { background-color: #ff8f00; }
+.amber-900 { background-color: #ff6f00; }
+.amber-a100 { background-color: #ffe57f; }
+.amber-a200 { background-color: #ffd740; }
+.amber-a400 { background-color: #ffc400; }
+.amber-a700 { background-color: #ffab00; }
+/* Green */
+.green { background-color: #4caf50; }
+.green-50 { background-color: #e8f5e9; }
+.green-100 { background-color: #c8e6c9; }
+.green-200 { background-color: #a5d6a7; }
+.green-300 { background-color: #81c784; }
+.green-400 { background-color: #66bb6a; }
+.green-500 { background-color: #4caf50; }
+.green-600 { background-color: #43a047; }
+.green-700 { background-color: #388e3c; }
+.green-800 { background-color: #2e7d32; }
+.green-900 { background-color: #1b5e20; }
+.green-a100 { background-color: #b9f6ca; }
+.green-a200 { background-color: #69f0ae; }
+.green-a400 { background-color: #00e676; }
+.green-a700 { background-color: #00c853; }
+/* Light Green */
+.light-green { background-color: #8bc34a; }
+.light-green-50 { background-color: #f1f8e9; }
+.light-green-100 { background-color: #dcedc8; }
+.light-green-200 { background-color: #c5e1a5; }
+.light-green-300 { background-color: #aed581; }
+.light-green-400 { background-color: #9ccc65; }
+.light-green-500 { background-color: #8bc34a; }
+.light-green-600 { background-color: #7cb342; }
+.light-green-700 { background-color: #689f38; }
+.light-green-800 { background-color: #558b2f; }
+.light-green-900 { background-color: #33691e; }
+.light-green-a100 { background-color: #ccff90; }
+.light-green-a200 { background-color: #b2ff59; }
+.light-green-a400 { background-color: #76ff03; }
+.light-green-a700 { background-color: #64dd17; }
+/* Lime */
+.lime { background-color: #cddc39; }
+.lime-50 { background-color: #f9fbe7; }
+.lime-100 { background-color: #f0f4c3; }
+.lime-200 { background-color: #e6ee9c; }
+.lime-300 { background-color: #dce775; }
+.lime-400 { background-color: #d4e157; }
+.lime-500 { background-color: #cddc39; }
+.lime-600 { background-color: #c0ca33; }
+.lime-700 { background-color: #afb42b; }
+.lime-800 { background-color: #9e9d24; }
+.lime-900 { background-color: #827717; }
+.lime-a100 { background-color: #f4ff81; }
+.lime-a200 { background-color: #eeff41; }
+.lime-a400 { background-color: #c6ff00; }
+.lime-a700 { background-color: #aeea00; }
+/* Yellow */
+.yellow { background-color: #ffeb3b; }
+.yellow-50 { background-color: #fffde7; }
+.yellow-100 { background-color: #fff9c4; }
+.yellow-200 { background-color: #fff59d; }
+.yellow-300 { background-color: #fff176; }
+.yellow-400 { background-color: #ffee58; }
+.yellow-500 { background-color: #ffeb3b; }
+.yellow-600 { background-color: #fdd835; }
+.yellow-700 { background-color: #fbc02d; }
+.yellow-800 { background-color: #f9a825; }
+.yellow-900 { background-color: #f57f17; }
+.yellow-a100 { background-color: #ffff8d; }
+.yellow-a200 { background-color: #ffff00; }
+.yellow-a400 { background-color: #ffea00; }
+.yellow-a700 { background-color: #ffd600; }
+/*White && Black*/
+    .white{background-color: #ffffff;}
+    .black{background-color: #000000;}
+
+</style>
+
+<body ontouchstart="">
+    <h2>Material Colors</h2>
+    <p>Hover over the colors to see the HEX codes </p>
+    <div class="main">
+    <table>
+        <tr>
+            <td class="red" title="#f44336"></td>
+            <td class="red-50" title=" #ffebee"></td>
+            <td class="red-100" title="#ffcdd2"></td>
+            <td class="red-200" title="#ef9a9a"></td>
+            <td class="red-300" title="#e57373"></td>
+            <td class="red-400" title="#ef5350"></td>
+            <td class="red-500" title="#f44336"></td>
+            <td class="red-600" title="#e53935"></td>
+            <td class="red-700" title="#d32f2f"></td>
+            <td class="red-800" title="#c62828"></td>
+            <td class="red-900" title="#b71c1c"></td>
+            <td class="red-a100" title="#ff8a80"></td>
+            <td class="red-a200" title="#ff5252"></td>
+            <td class="red-a400" title="#ff1744"></td>
+            <td class="red-a700" title="#d50000"></td>
+        </tr>
+        <tr>
+            <td class="pink" title="#e91e63"></td>
+            <td class="pink-50" title=" #fce4ec"></td>
+            <td class="pink-100" title="#f8bbd0"></td>
+            <td class="pink-200" title="#f48fb1"></td>
+            <td class="pink-300" title="#f06292"></td>
+            <td class="pink-400" title="#ec407a"></td>
+            <td class="pink-500" title="#e91e63"></td>
+            <td class="pink-600" title=" #d81b60"></td>
+            <td class="pink-700" title="#c2185b"></td>
+            <td class="pink-800" title="#ad1457"></td>
+            <td class="pink-900" title="#880e4f"></td>
+            <td class="pink-a100" title="#ff80ab"></td>
+            <td class="pink-a200" title=" #ff4081"></td>
+            <td class="pink-a400" title="#f50057"></td>
+            <td class="pink-a700" title="#c51162"></td>
+        </tr>
+        <tr>
+            <td class="purple" title="#9c27b0"></td>
+            <td class="purple-50" title="#f3e5f5"></td>
+            <td class="purple-100" title="#e1bee7"></td>
+            <td class="purple-200" title="#ce93d8"></td>
+            <td class="purple-300" title="#ba68c8"></td>
+            <td class="purple-400" title="#ab47bc"></td>
+            <td class="purple-500" title="#9c27b0"></td>
+            <td class="purple-600" title="#8e24aa"></td>
+            <td class="purple-700" title="#7b1fa2"></td>
+            <td class="purple-800" title="#6a1b9a"></td>
+            <td class="purple-900" title="#4a148c"></td>
+            <td class="purple-a100" title="#ea80fc"></td>
+            <td class="purple-a200" title="#e040fb"></td>
+            <td class="purple-a400" title="#d500f9"></td>
+            <td class="purple-a700" title="#aa00ff"></td>
+        </tr>
+        <tr>
+            <td class="deep-purple" title="#673ab7"></td>
+            <td class="deep-purple-50" title="#ede7f6"></td>
+            <td class="deep-purple-100" title="#d1c4e9"></td>
+            <td class="deep-purple-200" title="#b39ddb"></td>
+            <td class="deep-purple-300" title="#9575cd"></td>
+            <td class="deep-purple-400" title="#7e57c2"></td>
+            <td class="deep-purple-500" title="#673ab7"></td>
+            <td class="deep-purple-600" title="#5e35b1"></td>
+            <td class="deep-purple-700" title="#512da8"></td>
+            <td class="deep-purple-800" title="#4527a0"></td>
+            <td class="deep-purple-900" title="#311b92"></td>
+            <td class="deep-purple-a100" title="#b388ff"></td>
+            <td class="deep-purple-a200" title="#7c4dff"></td>
+            <td class="deep-purple-a400" title="#651fff"></td>
+            <td class="deep-purple-a700" title="#6200ea"></td>
+        </tr>
+        <tr>
+            <td class="indigo" title="#3f51b5"></td>
+            <td class="indigo-50" title="#e8eaf6"></td>
+            <td class="indigo-100" title="#c5cae9"></td>
+            <td class="indigo-200" title="#9fa8da"></td>
+            <td class="indigo-300" title=" #7986cb"></td>
+            <td class="indigo-400" title="#5c6bc0"></td>
+            <td class="indigo-500" title="#3f51b5"></td>
+            <td class="indigo-600" title="#3949ab"></td>
+            <td class="indigo-700" title="#303f9f"></td>
+            <td class="indigo-800" title="#283593"></td>
+            <td class="indigo-900" title="#1a237e"></td>
+            <td class="indigo-a100" title="#8c9eff"></td>
+            <td class="indigo-a200" title=" #536dfe"></td>
+            <td class="indigo-a400" title="#3d5afe"></td>
+            <td class="indigo-a700" title="#304ffe"></td>
+        </tr>
+        <tr>
+             <td class="blue" title="#2196f3"></td>
+            <td class="blue-50" title="#e3f2fd"></td>
+            <td class="blue-100" title="#bbdefb"></td>
+            <td class="blue-200" title="#90caf9"></td>
+            <td class="blue-300" title="#64b5f6"></td>
+            <td class="blue-400" title="#42a5f5"></td>
+            <td class="blue-500" title="#2196f3"></td>
+            <td class="blue-600" title="#1e88e5"></td>
+            <td class="blue-700" title="#1976d2"></td>
+            <td class="blue-800" title="#1565c0"></td>
+            <td class="blue-900" title="#0d47a1"></td>
+            <td class="blue-a100" title=" #82b1ff"></td>
+            <td class="blue-a200" title="#448aff"></td>
+            <td class="blue-a400" title="#2979ff"></td>
+            <td class="blue-a700" title=" #2962ff"></td>
+            
+        </tr>
+        <!--LightBlue-->
+        <tr>
+             <td class="light-blue" title="#03a9f4"></td>
+            <td class="light-blue-50" title="#e1f5fe"></td>
+            <td class="light-blue-100" title="#b3e5fc"></td>
+            <td class="light-blue-200" title="#81d4fa"></td>
+            <td class="light-blue-300" title="#4fc3f7"></td>
+            <td class="light-blue-400" title="#29b6f6"></td>
+            <td class="light-blue-500" title="#03a9f4"></td>
+            <td class="light-blue-600" title="#039be5"></td>
+            <td class="light-blue-700" title=" #0288d1"></td>
+            <td class="light-blue-800" title="#0277bd"></td>
+            <td class="light-blue-900" title="#01579b"></td>
+            <td class="light-blue-a100" title=#80d8ff""></td>
+            <td class="light-blue-a200" title="#40c4ff"></td>
+            <td class="light-blue-a400" title=" #00b0ff"></td>
+            <td class="light-blue-a700" title="#0091ea"></td>
+        </tr>
+        <!--cyan-->
+        <tr>
+             <td class="cyan" title="#00bcd4"></td>
+            <td class="cyan-50" title="#e0f7fa"></td>
+            <td class="cyan-100" title="#b2ebf2"></td>
+            <td class="cyan-200" title="#80deea"></td>
+            <td class="cyan-300" title="#4dd0e1"></td>
+            <td class="cyan-400" title="#26c6da"></td>
+            <td class="cyan-500" title="#00bcd4"></td>
+            <td class="cyan-600" title="#00acc1"></td>
+            <td class="cyan-700" title="#0097a7"></td>
+            <td class="cyan-800" title="#00838f"></td>
+            <td class="cyan-900" title="#006064"></td>
+            <td class="cyan-a100" title="#84ffff"></td>
+            <td class="cyan-a200" title="#18ffff"></td>
+            <td class="cyan-a400" title="#00e5ff"></td>
+            <td class="cyan-a700" title="#00b8d4"></td>
+        </tr>
+        <!--Teal-->
+        <tr>
+             <td class="teal" title="#009688"></td>
+            <td class="teal-50" title="#e0f2f1"></td>
+            <td class="teal-100" title="#b2dfdb"></td>
+            <td class="teal-200" title="#80cbc4"></td>
+            <td class="teal-300" title="#4db6ac"></td>
+            <td class="teal-400" title="#26a69a"></td>
+            <td class="teal-500" title="#009688"></td>
+            <td class="teal-600" title="#00897b"></td>
+            <td class="teal-700" title="#00796b"></td>
+            <td class="teal-800" title="#00695c"></td>
+            <td class="teal-900" title="#004d40"></td>
+            <td class="teal-a100" title="#a7ffeb"></td>
+            <td class="teal-a200" title=" #64ffda"></td>
+            <td class="teal-a400" title="#1de9b6"></td>
+            <td class="teal-a700" title="#00bfa5"></td>
+        </tr>
+        <!--green-->
+        <tr>
+             <td class="green" title="#4caf50"></td>
+            <td class="green-50" title="#e8f5e9"></td>
+            <td class="green-100" title="#c8e6c9"></td>
+            <td class="green-200" title="#a5d6a7"></td>
+            <td class="green-300" title="#81c784"></td>
+            <td class="green-400" title="#66bb6a"></td>
+            <td class="green-500" title="#4caf50"></td>
+            <td class="green-600" title="#43a047"></td>
+            <td class="green-700" title="#388e3c"></td>
+            <td class="green-800" title="#2e7d32"></td>
+            <td class="green-900" title="#1b5e20"></td>
+            <td class="green-a100" title="#b9f6ca"></td>
+            <td class="green-a200" title="#69f0ae"></td>
+            <td class="green-a400" title="#00e676"></td>
+            <td class="green-a700" title="#00c853"></td>
+        </tr>
+        <!--/*light-green*/-->
+        <tr>
+             <td class="light-green" title="#8bc34a"></td>
+            <td class="light-green-50" title="#f1f8e9"></td>
+            <td class="light-green-100" title="#dcedc8"></td>
+            <td class="light-green-200" title="#c5e1a5"></td>
+            <td class="light-green-300" title="#aed581"></td>
+            <td class="light-green-400" title="#9ccc65"></td>
+            <td class="light-green-500" title="#8bc34a"></td>
+            <td class="light-green-600" title="#7cb342"></td>
+            <td class="light-green-700" title="#689f38"></td>
+            <td class="light-green-800" title="#558b2f"></td>
+            <td class="light-green-900" title="#33691e"></td>
+            <td class="light-green-a100" title="#ccff90"></td>
+            <td class="light-green-a200" title="#b2ff59"></td>
+            <td class="light-green-a400" title=" #76ff03"></td>
+            <td class="light-green-a700" title="#64dd17"></td>
+        </tr>
+        <!--/*lime*/-->
+        <tr>
+             <td class="lime" title="#cddc39"></td>
+            <td class="lime-50" title=" #f9fbe7"></td>
+            <td class="lime-100" title="#f0f4c3"></td>
+            <td class="lime-200" title="#e6ee9c"></td>
+            <td class="lime-300" title="#dce775"></td>
+            <td class="lime-400" title="#d4e157"></td>
+            <td class="lime-500" title="#cddc39"></td>
+            <td class="lime-600" title="#c0ca33"></td>
+            <td class="lime-700" title="#afb42b"></td>
+            <td class="lime-800" title="#9e9d24"></td>
+            <td class="lime-900" title="#827717"></td>
+            <td class="lime-a100" title="#f4ff81"></td>
+            <td class="lime-a200" title="#eeff41"></td>
+            <td class="lime-a400" title="#c6ff00"></td>
+            <td class="lime-a700" title="#aeea00"></td>
+        </tr>
+        <!--/*yellow*/-->
+        <tr>
+             <td class="yellow" title="#ffeb3b"></td>
+            <td class="yellow-50" title="#fffde7"></td>
+            <td class="yellow-100" title="#fff9c4"></td>
+            <td class="yellow-200" title="#fff59d"></td>
+            <td class="yellow-300" title="#fff176"></td>
+            <td class="yellow-400" title="#ffee58"></td>
+            <td class="yellow-500" title="#ffeb3b"></td>
+            <td class="yellow-600" title="#fdd835"></td>
+            <td class="yellow-700" title="#fbc02d"></td>
+            <td class="yellow-800" title="#f9a825"></td>
+            <td class="yellow-900" title="#f57f17"></td>
+            <td class="yellow-a100" title="#ffff8d"></td>
+            <td class="yellow-a200" title=" #ffff00"></td>
+            <td class="yellow-a400" title="#ffea00"></td>
+            <td class="yellow-a700" title="#ffd600"></td>
+        </tr>
+        <!--/*Amber*/-->
+        <tr>
+             <td class="amber" title="#ffc107"></td>
+            <td class="amber-50" title="#fff8e1"></td>
+            <td class="amber-100" title="#ffecb3"></td>
+            <td class="amber-200" title="#ffe082"></td>
+            <td class="amber-300" title="#ffd54f"></td>
+            <td class="amber-400" title=#ffca28""></td>
+            <td class="amber-500" title="#ffc107"></td>
+            <td class="amber-600" title="#ffb300"></td>
+            <td class="amber-700" title="#ffa000"></td>
+            <td class="amber-800" title=" #ff8f00"></td>
+            <td class="amber-900" title="#ff6f00"></td>
+            <td class="amber-a100" title="#ffe57f"></td>
+            <td class="amber-a200" title="#ffd740"></td>
+            <td class="amber-a400" title="#ffc400"></td>
+            <td class="amber-a700" title="#ffab00"></td>
+        </tr>
+        <!--/*Orange*/-->
+        <tr>
+             <td class="orange" title="#ff9800"></td>
+            <td class="orange-50" title="#fff3e0"></td>
+            <td class="orange-100" title="#ffe0b2"></td>
+            <td class="orange-200" title="#ffcc80"></td>
+            <td class="orange-300" title="#ffb74d"></td>
+            <td class="orange-400" title="#ffa726"></td>
+            <td class="orange-500" title="#ff9800"></td>
+            <td class="orange-600" title="#fb8c00"></td>
+            <td class="orange-700" title="#f57c00"></td>
+            <td class="orange-800" title="#ef6c00"></td>
+            <td class="orange-900" title="#e65100"></td>
+            <td class="orange-a100" title="#ffd180"></td>
+            <td class="orange-a200" title="#ffab40"></td>
+            <td class="orange-a400" title="#ff9100"></td>
+            <td class="orange-a700" title="#ff6d00"></td>
+        </tr>
+        <!--/*DeepOrange*/-->
+        <tr>
+             <td class="deep-orange" title="#ff5722"></td>
+            <td class="deep-orange-50" title="#fbe9e7"></td>
+            <td class="deep-orange-100" title="#ffccbc"></td>
+            <td class="deep-orange-200" title="#ffab91"></td>
+            <td class="deep-orange-300" title="#ff8a65"></td>
+            <td class="deep-orange-400" title="#ff7043"></td>
+            <td class="deep-orange-500" title="#ff5722"></td>
+            <td class="deep-orange-600" title="#f4511e"></td>
+            <td class="deep-orange-700" title="#e64a19"></td>
+            <td class="deep-orange-800" title="#d84315"></td>
+            <td class="deep-orange-900" title="#bf360c"></td>
+            <td class="deep-orange-a100" title=" #ff9e80"></td>
+            <td class="deep-orange-a200" title="#ff6e40"></td>
+            <td class="deep-orange-a400" title="#ff3d00"></td>
+            <td class="deep-orange-a700" title="#dd2c00#ff3d00"></td>
+        </tr>
+        <!--/*Brown*/-->
+        <tr>
+             <td class="brown" title=" #795548"></td>
+            <td class="brown-50" title="#efebe9"></td>
+            <td class="brown-100" title="#d7ccc8"></td>
+            <td class="brown-200" title="#bcaaa4"></td>
+            <td class="brown-300" title="#a1887f"></td>
+            <td class="brown-400" title=#8d6e63""></td>
+            <td class="brown-500" title="#795548"></td>
+            <td class="brown-600" title="#6d4c41"></td>
+            <td class="brown-700" title="#5d4037"></td>
+            <td class="brown-800" title="#4e342e"></td>
+            <td class="brown-900" title="#3e2723"></td>
+        </tr>
+        <!--Grea-->
+        <tr>
+             <td class="grey" title="#9e9e9e"></td>
+            <td class="grey-50" title="#fafafa"></td>
+            <td class="grey-100" title=#f5f5f5""></td>
+            <td class="grey-200" title="#eeeeee"></td>
+            <td class="grey-300" title= #e0e0e0""></td>
+            <td class="grey-400" title="#bdbdbd"></td>
+            <td class="grey-500" title="#9e9e9e"></td>
+            <td class="grey-600" title="#757575"></td>
+            <td class="grey-700" title="#616161"></td>
+            <td class="grey-800" title="#424242"></td>
+            <td class="grey-900" title="#212121"></td>
+        </tr>
+        <!--BlueGrey-->
+        <tr>
+             <td class="blue-grey" title="#607d8b"></td>
+            <td class="blue-grey-50" title="#eceff1"></td>
+            <td class="blue-grey-100" title=" #cfd8dc"></td>
+            <td class="blue-grey-200" title="#b0bec5"></td>
+            <td class="blue-grey-300" title="#90a4ae"></td>
+            <td class="blue-grey-400" title="#78909c"></td>
+            <td class="blue-grey-500" title="#607d8b"></td>
+            <td class="blue-grey-600" title="#546e7a"></td>
+            <td class="blue-grey-700" title="#455a64"></td>
+            <td class="blue-grey-800" title="#37474f"></td>
+            <td class="blue-grey-900" title="#263238"></td>
+        <tr>
+        <td class="white" title="#ffffff"></td>
+        <td class="black" title="#000000"></td></tr>
+    </table>
+    </div>
+</body>
+
+</html>
+<!-- Created by Soumen -->
