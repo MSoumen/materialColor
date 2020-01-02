@@ -5,7 +5,7 @@ Here you just hover your mouse on the colors to see their HEX codes.
 Website to see the page is :  https://tastethesite.000webhostapp.com/
 
 ScreenShots:
-
+![Image description]()
 
 
 
